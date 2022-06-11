@@ -1,0 +1,9 @@
+diff a/src/termProject/Project.java b/src/termProject/Project.java	(rejected hunks)
+@@ -20,6 +20,7 @@
+ 	}
+ 	
+ 	@Override
++	public void start(Stage primaryStage) throws FileNotFoundException  {
+ 		//read the file and write it to an array.
+ 		File file= new File("level1.txt");
+ 		Scanner input = new Scanner(file);
